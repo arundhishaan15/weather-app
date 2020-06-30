@@ -1,17 +1,17 @@
-
-#city-input, #weather-output {
-    max-width: 400px;
-    margin: 0 auto;
+#city-input,
+#weather-output {
+  max-width: 400px;
+  margin: 0 auto;
 }
-  
+
 .banner {
-    color: #FFD23F;
-    font-family: sans-serif;
+  color: #ffd23f;
+  font-family: sans-serif;
 }
 
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4VMW3FBgR5Xz7n_XvGc17ANx7w_uace68IQ&usqp=CAU");
-    background-size: cover;
+  background-image: url("https://grist.files.wordpress.com/2013/06/supercell_16803.gif");
+  background-size: cover;
 }
 
 #weather-img {
