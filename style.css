@@ -10,13 +10,8 @@
 }
 
 body {
-<<<<<<< HEAD
-    background-image: url("https://grist.files.wordpress.com/2013/06/supercell_16803.gif");
-    background-size: cover;
-=======
   background-image: url("https://grist.files.wordpress.com/2013/06/supercell_16803.gif");
   background-size: cover;
->>>>>>> d21f6fd2a1d7709b1746875703c8f7ba9cb0614e
 }
 
 #weather-img {
