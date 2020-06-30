@@ -50,6 +50,12 @@ function searchCity() {
     showWeatherData(response)
   }).catch((error) => {
     console.log(error);
+    document.getElementById('city-name').innerHTML = "Undefined";
+    document.getElementById('weather-img').src = `images/weatherimg.jpg`;
+    document.getElementById('weather-type').innerText = '----';
+    document.getElementById('temp').innerText = "--";
+    document.getElementById('min-temp').innerText = "--";
+    document.getElementById('max-temp').innerText = "--";
   })
 
   let code = `<input id="city-input" class="form-control form-control-lg" type="text" placeholder="Search city">`;
@@ -64,7 +70,7 @@ function searchCity() {
  */
 showWeatherData = (weatherData) => {
   //CODE GOES HERE
-    document.getElementById('city-name').innerHTML = weatherData.name
+    document.getElementById('city-name').innerHTML = weatherData.name;
   document.getElementById('weather-img').src = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`
   document.getElementById('weather-type').innerText = weatherData.weather[0].main;
   document.getElementById('temp').innerText = weatherData.main.temp;
