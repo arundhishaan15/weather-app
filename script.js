@@ -75,14 +75,12 @@ showWeatherData = (weatherData) => {
   } else {
     document.getElementById('city-name').innerText = weatherData.name;
     document.getElementById('weather-type').innerText = '--';
+    document.getElementById("img-container").src = './images/for-icon.png';
     document.getElementById('temp').innerText = '--';
     document.getElementById('min-temp').innerText = '--';
     document.getElementById('max-temp').innerText = '--';
     document.getElementById("weather-output").classList.add("visible");
-    document.getElementById("img-container").src = '--';
   }
-
-  
 
 }
 
